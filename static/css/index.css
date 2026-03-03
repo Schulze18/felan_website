@@ -1,5 +1,5 @@
 body {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Google Sans', 'Noto Sans', sans-serif;
 }
 
 
@@ -216,3 +216,36 @@ body {
   transform: scale(1.12);
   transform-origin: center;
 }
+
+:root{
+  --accent: #cf233a;                 /* your red */
+  --ink: #111318;
+  --muted: #5b616e;
+  --soft: rgba(207,35,58,0.06);
+  --soft-border: rgba(207,35,58,0.14);
+}
+
+/* Hero title: black + red underline bar (only top section) */
+.hero .publication-title {
+  color: #111318 !important;
+  font-weight: 750;
+  letter-spacing: -0.02em;
+  line-height: 1.06;
+  margin-bottom: 0.9rem;
+  margin-top: 1.25rem;
+}
+
+.hero .publication-title::after {
+  content: "";
+  display: block;
+  width: 856px;
+  height: 2px;
+  border-radius: 999px;
+  margin: 0.75rem auto 0;
+  background: #ffffff;
+  /* background: #cf233a; */
+  opacity: 0.9;
+}
+
+.is-size-6-5 { font-size: 0.95rem; }
+.is-size-5-5 { font-size: 1.2rem; }
