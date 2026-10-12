@@ -4,14 +4,15 @@ This is the repository that contains source code for the [FeLaN website](https:/
 
 If you find this work useful, please consider citing:
 ```
-@misc{schulze2025felan,
-      title={Floating-Base Deep Lagrangian Networks}, 
-      author={Lucas Schulze and Juliano Decico Negri and Victor Barasuol and Vivian Suzano Medeiros and Marcelo Becker and Jan Peters and Oleg Arenz},
-      year={2025},
-      eprint={2510.17270},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2510.17270}, 
+@inproceedings{11696543,
+  author={Schulze, Lucas and Negri, Juliano Decico and Barasuol, Victor and Medeiros, Vivian Suzano and Becker, Marcelo and Peters, Jan and Arenz, Oleg},
+  booktitle={2026 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={Floating-Base Deep Lagrangian Networks}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={18554-18561},
+  doi={10.1109/ICRA57385.2026.11696543}
 }
 ```
 
